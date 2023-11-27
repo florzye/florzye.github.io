@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cdn/styles.css">
+
+        <title>File Collections</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="collection.html">File Collections</a>
+        </div>
+
+        <h1>My list of File Collections</h1>
+        <p>Want some software? Download them genuine here! More files will be uploaded everytime.</p>
+        <p class="above">If any of my files are taken down, email me at <b>florian.aodisho1@gmail.com</b> so I could sort the problem.</p>
+        <p class="above">You can also email me if you want me to add anything else.</p>
+
+        <div class="dropdown">
+            <select id="image-dropdown" onchange="showImage()" class="styled-select">
+              <option value="image_Windows7StarterSP0">Windows 7 Starter SP0 - No Service Pack (x86)</option>
+              <option value="image_WindowsThinPC">Windows Thin PC SP1 - Service Pack 1 (x86)</option>
+              <option value="image_WindowsXPSP0">Windows XP Professional SP0 - No Service Pack (x86)</option>
+              <option value="image_WindowsXPSP1x64">Windows XP Professional SP1 - Service Pack 1 (x64)</option>
+              <option value="image_WindowsXPSP1x86">Windows XP Professional SP1 - Service Pack 1 (x86)</option>
+            </select>
+            <br>
+            <a id="image-button" href="cdn/images/preview/Windows7StarterSP0.png">
+                <img src="cdn/images/preview/Windows7StarterSP0.png" id="selected-image" class="selected-image">
+            </a>
+        </div>
+
+        <a class="sep" href="https://mega.nz/file/knEzHThA#ILbCDYAqWW6Ig8UP7VLl8hTdMSsSPEZzvqbg_LoUI98">Windows 7 Starter SP0 - No Service Pack (x86)</a>
+        <p class="closer">SHA 256: ceb37b18ad57d473223e893049b67bccd54b6edd40494da9679a9d47b084cb48</p>
+        <p class="closer">Original Name: en_windows_7_starter_x86_dvd_x15-68956.iso</p>
+        <p class="closer">Product Key: Not Required</p>
+
+        <a class="sep" href="https://mega.nz/file/h2tTVTaD#qVs4sbxwZiUCsgekXQMaUWX9JhuVPA-WLd9EzYvzWo0">Windows Thin PC SP1 - Service Pack 1 (x86)</a>
+        <p class="closer">SHA 256: 8e5a28d915a851a53a30b06dff4b3945de47f5dad6d6c7f24a388189642a9e3b</p>
+        <p class="closer">Original Name: en_windows_thin_pc_x86_697681.iso</p>
+        <p class="closer">Product Key: Not Required</p>
+
+        <a class="sep" href="https://mega.nz/file/U20QhKLK#JBwgJkkPcSfDWEOb1wQmkFHBkwZSVjz6n5nDPvqZ0dY">Windows XP Professional SP0 - No Service Pack (x86)</a>
+        <p class="closer">SHA 256: 63763b1e0d3a15b1604ad5fca725d2c53cfecc766ee8272019adcf45663cf863</p>
+        <p class="closer">Original Name: en_winxp_pro_vl_iso.img</p>
+        <p class="closer">Product Key: Q43R4-VFY4B-XRVP4-F29BK-3XMVG</p>
+
+        <a class="sep" href="https://mega.nz/file/N3MVWY7R#e_Wf7E_C2g8fySWkdh5RwH_jYA7vHpkUajhQz3XozBU">Windows XP Professional SP1 - Service Pack 1 (x64)</a>
+        <p class="closer">SHA 256: 45807eceef84c6c29920efd4294f0bdb127e602465a7a0e4e579148c69e459a8</p>
+        <p class="closer">Original Name: en_windows_xp_professional_x64.iso</p>
+        <p class="closer">Product Key: B2RBK-7KPT9-4JP6X-QQFWM-PJD6G</p>
+
+        <a class="sep" href="https://mega.nz/file/B6VkQJxI#ZJfpIErudw6znQHzca_h6A1wGBs1YeIb1SVGDitkI5w">Windows XP Professional SP1 - Service Pack 1 (x86)</a>
+        <p class="closer">SHA 256: 02a52c57f0c6d7225a8de7b72bb8678368b9d4c803be96d42a5cfdea8735f312</p>
+        <p class="closer">Original Name: en_win_xp_sp1_pro_x86_retail.iso</p>
+        <p class="closer">Product Key: X3WJB-3B2BH-3MPM6-8F6GR-X9HBJ</p>
+
+        <script>
+            function showImage() {
+              var selectBox = document.getElementById("image-dropdown");
+              var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+              var imageElement = document.getElementById("selected-image");
+          
+
+                if (selectedValue === "image_Windows7StarterSP0") {
+                    imageElement.src = "cdn/images/preview/Windows7StarterSP0.png";
+                } else if (selectedValue === "image_WindowsThinPC") {
+                    imageElement.src = "cdn/images/preview/WindowsThinPC.png";
+                } else if (selectedValue == "image_WindowsXPSP0") {
+                    imageElement.src = "cdn/images/preview/WindowsXPSP0.png";
+                } else if (selectedValue == "image_WindowsXPSP1x64") {
+                    imageElement.src = "cdn/images/preview/WindowsXPSP1x64.png";
+                } else if (selectedValue == "image_WindowsXPSP1x86") {
+                    imageElement.src = "cdn/images/preview/WindowsXPSP1x86.png";
+                } else {
+                    imageElement.src = "";
+                }
+
+                document.getElementById("image-button").href = imageElement.src;
+            }
+        </script>
+    </body>
+</html>
