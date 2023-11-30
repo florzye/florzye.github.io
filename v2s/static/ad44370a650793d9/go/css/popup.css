@@ -1,21 +1,25 @@
-.modal-body button.close{margin-top:-2px}.popup-header{padding-top:45px;text-align:center}.popup-header .h3{padding-bottom:20px}.popup-header .h5{padding-bottom:60px}.popup-content{text-align:center}.popup-content-block{padding-bottom:30px}.popup-footer{text-align:center}.k12-popup-img{margin-bottom:15px}
-/*
-     FILE ARCHIVED ON 11:33:21 Jan 05, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 06:53:06 Nov 30, 2023.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 73.706
-  exclusion.robots: 0.205
-  exclusion.robots.policy: 0.183
-  cdx.remote: 0.131
-  esindex: 0.017
-  LoadShardBlock: 35.741 (3)
-  PetaboxLoader3.datanode: 46.277 (4)
-  load_resource: 47.687
-  PetaboxLoader3.resolve: 27.35
-*/
+.modal-body button.close {
+  margin-top: -2px;
+}
+.popup-header {
+  padding-top: 45px;
+  text-align: center;
+}
+.popup-header .h3 {
+  padding-bottom: 20px;
+}
+.popup-header .h5 {
+  padding-bottom: 60px;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-content-block {
+  padding-bottom: 30px;
+}
+.popup-footer {
+  text-align: center;
+}
+.k12-popup-img {
+  margin-bottom: 15px;
+}
