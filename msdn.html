@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="cdn/styles.css">
 
-        <title>File Collections</title>
+        <title>Microsoft Archive</title>
     </head>
     <body>
         <div class="topnav">
-            <a href="collection.html">File Collections</a>
+            <a href="collection.html">Microsoft Archive</a>
         </div>
 
-        <h1>My list of File Collections</h1>
-        <p>Want some software? Download them genuine here! More files will be uploaded everytime.</p>
+        <h1>The Microsoft Archive</h1>
+        <p>Want some genuine Microsoft software, Download them here! More files will be uploaded everytime.</p>
         <p class="above">If any of my files are taken down, email me at <b>florian.aodisho1@gmail.com</b> so I could sort the problem.</p>
         <p class="above">You can also email me if you want me to add anything else.</p>
 
@@ -24,6 +24,7 @@
               <option value="image_WindowsXPSP0">Windows XP Professional SP0 - No Service Pack (x86)</option>
               <option value="image_WindowsXPSP1x64">Windows XP Professional SP1 - Service Pack 1 (x64)</option>
               <option value="image_WindowsXPSP1x86">Windows XP Professional SP1 - Service Pack 1 (x86)</option>
+              <option value="image_WindowsHomeServer2011SP1x64">Windows Home Server 2011 SP1 - Service Pack 1 (x64)</option>
             </select>
             <br>
             <a id="image-button" href="cdn/images/preview/Windows7StarterSP0.png">
@@ -56,12 +57,16 @@
         <p class="closer">Original Name: en_win_xp_sp1_pro_x86_retail.iso</p>
         <p class="closer">Product Key: X3WJB-3B2BH-3MPM6-8F6GR-X9HBJ</p>
 
+        <a class="sep" href="https://mega.nz/file/Bik0HDYI#VcKlcPUjFYbMRU1VlpsdjOqy0Xufx-l5G8MT2A8TaJs">Windows Home Server 2011 SP1 - Service Pack 1 (x64)</a>
+        <p class="closer">SHA 256: 66b1b7b590e53dc3e63dcdd72dce493d26d92c51124662b504967d763683ae7b</p>
+        <p class="closer">Original Name: en_server_install_disc_windows_home_server_2011_x64_dvd_658487.iso</p>
+        <p class="closer">Product Key: Not Required</p>
+
         <script>
             function showImage() {
-              var selectBox = document.getElementById("image-dropdown");
-              var selectedValue = selectBox.options[selectBox.selectedIndex].value;
-              var imageElement = document.getElementById("selected-image");
-          
+                var selectBox = document.getElementById("image-dropdown");
+                var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+                var imageElement = document.getElementById("selected-image");
 
                 if (selectedValue === "image_Windows7StarterSP0") {
                     imageElement.src = "cdn/images/preview/Windows7StarterSP0.png";
@@ -73,6 +78,8 @@
                     imageElement.src = "cdn/images/preview/WindowsXPSP1x64.png";
                 } else if (selectedValue == "image_WindowsXPSP1x86") {
                     imageElement.src = "cdn/images/preview/WindowsXPSP1x86.png";
+                } else if (selectedValue == "image_WindowsHomeServer2011SP1x64") {
+                    imageElement.src = "cdn/images/preview/WindowsHomeServer2011SP1x64.png";
                 } else {
                     imageElement.src = "";
                 }
