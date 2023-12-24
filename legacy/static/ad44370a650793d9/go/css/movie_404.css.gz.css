@@ -1,0 +1,28 @@
+html,
+body,
+.page-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  min-height: 600px;
+}
+.message-header {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
+.message-container {
+  background: url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/trial/character_videoUnavailable.png)
+    no-repeat 10px 0;
+  margin-top: 20px;
+  min-height: 300px;
+  padding-left: 130px;
+}
+.message-container--no-character {
+  background: 0;
+  padding-left: 0;
+}

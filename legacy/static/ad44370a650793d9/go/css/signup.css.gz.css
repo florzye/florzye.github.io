@@ -1,0 +1,374 @@
+html,
+body,
+.page-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.btn {
+  text-transform: uppercase;
+}
+.auth-block .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.floating-form {
+  width: 385px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  padding: 55px 25px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+}
+.floating-form h1 {
+  margin: 0 0 35px;
+  padding: 0;
+  color: #333;
+  font-size: 34px;
+  text-align: center;
+}
+.floating-form form {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.floating-form .form-error-message {
+  display: none;
+}
+.floating-form-subtitle {
+  text-align: center;
+  margin: -25px 0 35px 0;
+}
+.floating-form-footer {
+  margin-top: 25px;
+  text-align: center;
+}
+.registration-container {
+  background-color: white;
+}
+.header {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.header .h2 {
+  color: #333;
+  font-size: 34px;
+  line-height: 30px;
+}
+.header .h4 {
+  color: #555;
+  font-size: 20px;
+  font-weight: normal;
+}
+.registration-left-container {
+  padding-right: 54px;
+  border-right: 1px solid #ddd;
+}
+.registration-form-header {
+  padding-bottom: 25px;
+}
+.registration-form-header .h3 {
+  margin: 0;
+  padding-left: 0;
+}
+.registration-form-header-main {
+  float: left;
+}
+.registered-user-hint {
+  float: right;
+}
+.error-banner {
+  display: none;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  border-style: solid;
+  border-width: 1px;
+  color: #a94442;
+  font-size: 14px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.error-banner-message {
+  padding-left: 10px;
+}
+.error-banner-message a {
+  color: #a94442;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.value-propositions-block {
+  padding-bottom: 40px;
+}
+.value-propositions-text-container {
+  padding-left: 20px;
+  overflow: hidden;
+}
+.value-propositions-text-container .h5 {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.value-propositions-quotes {
+  font-style: italic;
+  font-weight: lighter;
+}
+.value-propositions-quotes-author {
+  font-size: 12px;
+}
+.signup-button-row {
+  text-align: center;
+}
+.separator-line-row {
+  border-bottom: 1px solid #ddd;
+}
+.separator-text-row {
+  background-color: white;
+  font-style: italic;
+  text-align: center;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.social-buttons-row {
+  text-align: center;
+  padding-top: 20px;
+}
+.registration-right-container {
+  padding-left: 25px;
+}
+.bottom-banner {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/signup/background_repeat.png)
+    repeat-x bottom left;
+  margin-top: 50px;
+}
+.hero-bottom {
+  margin-top: 20px;
+}
+.landscape {
+  background: url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/signup/background.png)
+    no-repeat bottom center;
+  width: 100%;
+  height: 205px;
+}
+#social-login-text {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#existing-user-text {
+  margin-top: 20px;
+  text-align: center;
+}
+.form-row {
+  position: relative;
+  margin-bottom: 25px;
+}
+.form-row:last-child {
+  margin-bottom: 0;
+}
+.form-row-submit {
+  padding-top: 10px;
+}
+.form-input {
+  position: relative;
+}
+.form-input.with-social-signup {
+  overflow: hidden;
+}
+.form-subtitle {
+  margin-bottom: 20px;
+}
+.form-error-message {
+  color: #f00;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.intl-tel-input {
+  text-align: left;
+  width: 100%;
+}
+.fi {
+  position: relative;
+  top: 4px;
+  z-index: 2;
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/signup/icon_signup2.png)
+    no-repeat 0 0;
+  display: inline-block;
+  height: 0;
+  padding-top: 22px;
+  overflow: hidden;
+  width: 22px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+.form-row .form-icon {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  color: #999;
+}
+.on .form-icon {
+  color: black;
+}
+.form-row .form-control,
+.form-row .form-control-static {
+  padding-left: 46px;
+  background: white;
+}
+.mac.webkit .form-row select.form-control {
+  text-indent: 35px;
+  padding-left: 0;
+}
+.form-row .form-control-static {
+  text-align: left;
+  line-height: 28px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form-row .has-error .form-control {
+  background-color: #fff3f3;
+}
+#firstname {
+  background-position: -22px -21px;
+  background-size: 20px 20px;
+}
+#form-row-other-job {
+  display: none;
+}
+#recaptcha_area {
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup-error {
+  display: none;
+  color: #da2c3c;
+  font-size: 12px;
+  padding-top: 8px;
+}
+.social-signup-container {
+  float: right;
+  margin-left: 20px;
+}
+.social-signup-container > * {
+  vertical-align: middle;
+}
+.google-signup-link {
+  display: inline-block;
+  margin-left: 20px;
+}
+.google-signup-link .glyph-google-plus,
+.google-login-link .glyph-google-plus {
+  color: #dd4b39;
+  font-size: 30px;
+  line-height: 1;
+}
+.office-365-logo {
+  display: inline-block;
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/signup/ico_office_365.png)
+    no-repeat 0 0;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+}
+.office-365-signup-link {
+  display: inline-block;
+  margin-left: 20px;
+}
+.social-login {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.social-login > li {
+  float: left;
+  width: 50%;
+}
+.social-login > li > a {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.social-login > li > a > span {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.recaptcha-wrapper #recaptcha_area {
+  margin-left: auto;
+  margin-right: auto;
+}
+.required-field-hint {
+  color: #999;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+#multiple-account-overlay {
+  text-align: center;
+}
+#multiple-account-overlay .close-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+}
+#multiple-account-overlay .btn-container {
+  padding: 20px;
+}
+.floating-form--require-sso .social-login,
+.floating-form--require-sso .separator-line-row,
+.floating-form--require-sso .separator-text-row,
+.floating-form--require-sso .form-row-submit {
+  display: none;
+}
+.form-row-sso {
+  display: none;
+}
+.floating-form--require-sso .form-row-sso {
+  display: block;
+}
+@media (max-width: 767px) {
+  .signup-firstname-container {
+    margin-bottom: 25px;
+  }
+  .landscape {
+    background: url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/signup/background_small.png)
+      repeat-x bottom center;
+    width: 100%;
+    height: 205px;
+  }
+  .registration-left-container {
+    padding-right: 0;
+    border-right: 0;
+  }
+  .registration-form-header-main,
+  .registered-user-hint {
+    float: none;
+  }
+  .floating-form {
+    width: 100%;
+    margin-top: 25px;
+    padding: 35px 20px;
+  }
+  .floating-form-footer {
+    margin: 20px -20px 0;
+  }
+  .popover.right.fade.in {
+    display: none;
+  }
+}

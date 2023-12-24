@@ -1,0 +1,323 @@
+.plan-free-trial-banner {
+  background-color: #ffd030;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.plan-free-trial-banner .plan-text-free-trial {
+  line-height: 30px;
+}
+.page-header a {
+  float: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.pricing-table {
+  padding-top: 65px;
+  padding-bottom: 25px;
+  width: 903px;
+  margin: 0 auto;
+}
+.pricing-table > .plan {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #e5e6e6;
+  float: right;
+  width: 299px;
+  position: relative;
+  margin: 0 1px 25px;
+}
+.pricing-table .gopremium,
+.videoplans_v2 .pricing-table .goteam {
+  margin-top: -18px;
+}
+.pricing-table .goteam {
+  position: relative;
+}
+.pricing-plan-top {
+  text-align: center;
+  padding: 0 15px 20px;
+  height: 201px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+.goteam .pricing-plan-top {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/rocket.gif)
+    no-repeat 0 0;
+}
+.videoplans_v2 .goteam .pricing-plan-top {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/rocket2.gif)
+    no-repeat 0 0;
+  padding-top: 18px;
+  height: 219px;
+}
+.gopremium .pricing-plan-top {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/gopremium.png)
+    no-repeat 0 0;
+  padding-top: 18px;
+  height: 219px;
+}
+.gopublish .pricing-plan-top {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/gopublish.png)
+    no-repeat 0 0;
+}
+.pricing-plan-top .full-hd {
+  position: absolute;
+  top: 7px;
+  left: 111px;
+}
+.pricing-plan-top .multiseat {
+  position: absolute;
+  top: 7px;
+  left: 77px;
+}
+.plan-price-top {
+  text-align: center;
+}
+.plan-price-top .plan-price {
+  display: table;
+  height: 55px;
+  width: 100%;
+  line-height: 16px;
+}
+.plan-price-top .plan-price-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.plan-saving {
+  background-color: #888;
+  color: #fff;
+  display: table;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+.plan-saving .plan-saving-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.pricing-plan-top h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.pricing-plan-tagline {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+  height: 71px;
+  padding: 10px 10px 15px;
+}
+.pricing-table-features {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 10px;
+}
+.pricing-table-features > li {
+  display: block;
+  background-color: #fff;
+  padding: 0 20px;
+}
+.pricing-table-features > li.dimmed {
+  color: #dadada;
+}
+.pricing-table-features > li > p {
+  border-top: 1px solid #eee;
+  margin: 0;
+  padding: 10px 0;
+}
+.pricing-table-features .tick,
+.pricing-table-features .cross {
+  color: #1fbba6;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: default;
+}
+.pricing-table-features .cross {
+  color: #dadada;
+}
+.plan-price {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+.plan-price-month {
+  font-size: 15px;
+}
+.plan-price-month > strong {
+  font-size: 24px;
+  line-height: 1;
+}
+.plan-button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.plan-button-group li .plan-desc {
+  color: #333;
+}
+.plan-button-group li .plan-cta {
+  color: #888;
+}
+.plan-subscribed,
+.plan-unavailable {
+  padding: 10px 30px 0;
+  display: table;
+  height: 50px;
+  width: 100%;
+  margin-bottom: -10px;
+}
+.plan-subscribed > span,
+.plan-unavailable > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.full-hd {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/full_hd.png)
+    no-repeat 0 0;
+  height: 0;
+  padding-top: 14px;
+  width: 77px;
+  overflow: hidden;
+}
+.multiseat {
+  background: transparent
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/multiseat.png)
+    no-repeat 0 0;
+  height: 0;
+  padding-top: 14px;
+  width: 142px;
+  overflow: hidden;
+}
+.pricing-table-top-note {
+  text-align: center;
+  margin-top: 20px;
+}
+.pricing-table-footnote {
+  text-align: center;
+}
+.pricing-faq {
+  background: #ede5d5
+    url(https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/confirmation/bidge_background.png)
+    repeat 0 0;
+  width: 100%;
+  padding: 30px 0 60px;
+}
+.pricing-faq h3 {
+  color: #fd801e;
+  text-transform: uppercase;
+}
+.pricing-faq h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.pricing-faq p {
+  margin-bottom: 20px;
+}
+.pricing-faq .highlight-box {
+  background-color: #e6dac3;
+  padding: 20px;
+  text-align: center;
+}
+.pricing-faq-left {
+  padding-right: 20px;
+}
+.pricing-faq-right {
+  padding-left: 20px;
+}
+.call-out {
+  padding: 30px 0;
+  text-align: center;
+}
+.icon-block-icon {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.call-out-block h4 {
+  color: #fd801e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.alert {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.school-banner {
+  background-color: #4f86aa;
+}
+.school-banner h2,
+.school-banner h2 + p {
+  color: #fff;
+}
+.school-banner h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.school-banner p {
+  margin-bottom: 15px;
+}
+.i-external-link {
+  background: transparent
+    url("https://florzye.github.io/legacy/static/ad44370a650793d9/go/img/biz/plans/external_icon.png")
+    no-repeat 0 0;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+}
+.text-smaller {
+  font-size: 13px;
+}
+.tooltip-inner {
+  text-align: left;
+  padding: 20px;
+}
+@media (min-width: 992px) {
+  .icon-block-icon {
+    width: 52px;
+  }
+}
+@media (max-width: 991px) {
+  .page-header h1 {
+    font-size: 24px;
+  }
+  .pricing-table {
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 303px;
+    margin: 0 auto;
+  }
+  .pricing-table .gopremium {
+    margin-top: 0;
+  }
+  .call-out {
+    text-align: center;
+    padding: 0;
+  }
+  .call-out-block {
+    margin-bottom: 50px;
+  }
+  .school-banner {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .pricing-faq-left,
+  .pricing-faq-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
